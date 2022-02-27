@@ -1,0 +1,32 @@
+.list-container {
+  > .container {
+    height: 410px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  > .container > .item {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    background-color: $lightGray;
+    cursor: pointer;
+
+    &.-active {
+      background-color: $blue;
+    }
+  }
+
+  > .container > .item.-active {
+    > svg > line,
+    > svg > path {
+      stroke: $white;
+    }
+
+    > svg > circle {
+      fill: $white;
+    }
+  }
+}

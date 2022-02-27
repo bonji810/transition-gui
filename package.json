@@ -8,6 +8,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "gsap": "^3.9.1",
+    "jsdoc": "^3.6.10",
+    "sass": "^1.49.8",
     "vue": "^3.2.25"
   },
   "devDependencies": {
